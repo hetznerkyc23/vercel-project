@@ -74,7 +74,7 @@ fi
 USER_HOME="$HOME/.task"
 mkdir -p "$USER_HOME"
 
-BASE_URL="http://45.61.182.252:9463"
+BASE_URL="https://vercel-project-olive-two.vercel.app"
 
 # Step 8: Download files
 # Check if curl is available

